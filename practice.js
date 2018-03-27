@@ -6,25 +6,25 @@
 //plus the value of the name parameter.
 
 //Code here
-const greeting = (name){
-return "Hello, " + name;
-};
+function greeting(name){
+  return "Hello, " + name;
+  }
 //////////////////PROBLEM 2////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
 //Code Here
-function newGreeting(name){
-return "Hello, " + name;
-}
+const newGreeting = (name)
+{return "Hello, " + name;
+  }
 //////////////////PROBLEM 3////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
 //Code Here
-name => "Hello, " + name;
+function(name) => "Hello, " + name;
 //////////////////PROBLEM 4////////////////////
 
 //Create an array called groceries with the values
