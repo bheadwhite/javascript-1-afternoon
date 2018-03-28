@@ -16,8 +16,9 @@ function greeting(name){
 
 //Code Here
 const newGreeting = (name)
-{return "Hello, " + name;
-  }
+{
+  return ("Hello, " + name);
+}
 //////////////////PROBLEM 3////////////////////
 
 //Rewrite the function greeting as an arrow function.
