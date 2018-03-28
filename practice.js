@@ -15,9 +15,8 @@ function greeting(name){
 //Name it newGreeting.
 
 //Code Here
-const newGreeting = (name)
-{
-  return `Hello , ${name}`;
+const newGreeting = function(name){
+  return `Hello, ${name}`;
 }
 //////////////////PROBLEM 3////////////////////
 
@@ -25,7 +24,8 @@ const newGreeting = (name)
 //Name it finalGreeting.
 
 //Code Here
-function(name) => "Hello, " + name;
+const finalGreeting = name => "Hello, " + name;
+
 //////////////////PROBLEM 4////////////////////
 
 //Create an array called groceries with the values
